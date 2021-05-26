@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(52, 13, 70);
+}
+header{
+    position: relative;
+    height: 10vh;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a{
+    margin: 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.showcase{
+    position: relative;
+    height: 50vh;
+    transform: translateY(100px);
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.paragraph{
+    width: 60%;
+}
+.paragraph h1{
+    font-size: 90px;
+    letter-spacing: 1.5px;
+}
+.paragraph h2{
+    font-size: 36px;
+    letter-spacing: 1.5px;
+}
+.paragraph p{
+    transform: translateY(30px);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.pic{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back{
+    height: 400px;
+    width: 410px;
+    background-color: rgb(52, 13, 70, .3);
+    position: absolute;
+    z-index: 111;
+}
+
+.circle{
+    width: 230px;
+    height: 230px;
+    border: 14px solid rgb(137, 41, 182);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle2{
+    position: absolute;
+    z-index: 1;
+    width: 240px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(-10px);
+}
+.pic img{
+    position: relative;
+    height: 280px;
+    transform: translateY(-20px) translateX(-28px);
+}
+
+.rectangle{
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(76, 17, 104);
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+
+.rectangle2{
+    position: fixed;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(108, 34, 143);
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+.rectangle3{
+    position: fixed;
+    right: 80px;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(145, 72, 179);
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+.rectangle4{
+    position: fixed;
+    right: 580px;
+    bottom:20px;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(97, 16, 100);
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+.rectangle5{
+    position: fixed;
+    right: 380px;
+    top:60px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(94, 15, 97);
+    border-radius: 20%;
+    transform: rotate(45deg);
+}
+.rectangle6{
+    position: fixed;
+    left: 580px;
+    top:20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(79, 12, 82);
+    border-radius: 20%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
